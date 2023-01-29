@@ -13,5 +13,8 @@ Versions of Angular and Node
 
 
 # components commands
+# ng generate component main
 # ng generate component dialog-box
 # ng generate component random-clicks
+# npm i ngx-timer --force (As dependency tree error occurred)
+# ng generate component game-over
