@@ -16,6 +16,7 @@ import { GameOverComponent } from './game-over/game-over.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { NextLevelComponent } from './next-level/next-level.component';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { MatButtonModule } from '@angular/material/button';
     FormsModule,
     BrowserAnimationsModule,
     NgxTimerModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
