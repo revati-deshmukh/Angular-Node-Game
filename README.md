@@ -18,3 +18,5 @@ Versions of Angular and Node
 # ng generate component random-clicks
 # npm i ngx-timer --force (As dependency tree error occurred)
 # ng generate component game-over
+# npm install --save jquery
+# npm install -D @types/jquery
