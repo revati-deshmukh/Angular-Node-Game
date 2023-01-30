@@ -1,0 +1,29 @@
+.card {
+    margin: 5em;
+}
+
+.mat-card-header{
+    background-color:#f26a26 ;
+    padding:10px ;
+}
+  
+.mat-card{
+    padding:0 ;
+}
+  
+.mat-card-content{
+    padding:10px ;
+    font-size: 18px;
+    color: #0e5b8e;
+}
+
+.mat-card-title{
+    // color: #0e5b8e;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #0e5b8e !important;
+    color: #fff !important;
+}
