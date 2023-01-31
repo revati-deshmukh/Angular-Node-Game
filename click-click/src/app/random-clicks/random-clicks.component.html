@@ -1,0 +1,24 @@
+<!-- <div>
+    <mat-toolbar color="primary">
+        <span>Revati</span>
+    </mat-toolbar>
+</div> -->
+<div class="container">
+    <h2 class="level"> Level : {{level}} </h2>
+    <div class="mat-action-row">
+        <button mat-raised-button id="red" class="red-{{level}}" color="warn" (click)="onClick('red')">Red</button>
+        <button mat-raised-button id="blue" class="blue-{{level}}" color="primary"
+            (click)="onClick('blue')">Blue</button>
+        <button mat-raised-button id="green" class="green-{{level}}" color="success"
+            (click)="onClick('green')">Green</button>
+    </div>
+</div>
+
+<div class="instruction-container">
+    <div *ngIf="color" class="instruction">
+        <h2> Click <span style="color:{{colorCode}}">{{ color }}</span> Button! </h2>
+    </div>
+    <div *ngIf="color" class="timer">
+        <countup-timer [countUpTimerConfig]="testConfig"></countup-timer>
+    </div>
+</div>
