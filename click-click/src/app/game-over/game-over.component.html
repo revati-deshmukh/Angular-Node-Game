@@ -1,0 +1,10 @@
+<h1 mat-dialog-title class="dialog-header"> Game Over </h1>
+<div mat-dialog-content align="center" class="dialog-content">
+    <mat-label>
+        <h4>Want to play again ?</h4>
+    </mat-label>
+</div>
+<div mat-dialog-actions align="center">
+    <button mat-button color="" [mat-dialog-close]="false" cdkFocusInitial> No, Thank you </button>
+    <button mat-raised-button color="primary" class="btn" [mat-dialog-close]="true" cdkFocusInitial> Re-play </button>
+</div>
