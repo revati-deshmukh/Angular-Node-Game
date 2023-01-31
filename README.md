@@ -20,3 +20,11 @@ Versions of Angular and Node
 # ng generate component game-over
 # npm install --save jquery
 # npm install -D @types/jquery
+# ng generate service services/appHttp
+# ng generate service services/user
+
+# Node setup
+# npm init
+# npm install express body-parser
+# npm install nodemon --save-dev 
+
