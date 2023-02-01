@@ -3,7 +3,7 @@
         <span>Revati</span>
     </mat-toolbar>
 </div> -->
-<div class="container">
+<div id="container" class="container">
     <h2 class="level"> Level : {{level}} </h2>
     <div class="mat-action-row">
         <button mat-raised-button id="red" class="red-{{level}}" color="warn" (click)="onClick('red')">Red</button>
@@ -16,7 +16,7 @@
 
 <div class="instruction-container">
     <div *ngIf="color" class="instruction">
-        <h2> Click <span style="color:{{colorCode}}">{{ color }}</span> Button! </h2>
+        <p> Click <span style="color:{{colorCode}}">{{ color }}</span> Button! </p>
     </div>
     <div *ngIf="color" class="timer">
         <countup-timer [countUpTimerConfig]="testConfig"></countup-timer>

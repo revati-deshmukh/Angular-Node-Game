@@ -1,23 +1,27 @@
-.container {
-  height: 300px;
-  width: 1000px;
-  border: black 2px solid;
-}
-.instruction-container {
-  display: flex;
-  height: 200px;
-  width: 500px;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #888888;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
+#container {
+  height: 280px;
+  width: 950px;
+  // border: black 1px solid;
+  position: relative;
 }
 
-.instruction-container .instruction{
+.instruction-container {
+  height: 200px;
+  width: 500px;
+  border: 1px solid #36454F;
+  padding: 10px;
+  // box-shadow: 5px 10px #888888;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
+  position: relative;
+}
+
+.instruction{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
 }
 
 .level {
@@ -33,20 +37,18 @@
 }
 
 .mat-action-row button{
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  direction: column;
-  // position: absolute;
-  //left : 20px;
-  top : 50px;
+  display: block;
+  margin: 5px;
+  // direction: column;
+  //position: absolute;
+  // left : 20px;
+  // top : 50px;
 }
 
 .timer {
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: 1em;
-  margin-bottom: 1em;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
   font-size: 16px;
   font-weight: bold;
   color: #0e5b8e;
