@@ -7,7 +7,7 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
 const routes: Routes = [
   { path: '', component: MainComponent },
   { path: 'random-clicks/:level', component: RandomClicksComponent },
-  { path: 'thank-you', component: ThankYouComponent }
+  { path: 'thank-you/:prevState', component: ThankYouComponent }
 ];
 
 @NgModule({

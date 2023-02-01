@@ -17,6 +17,7 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
 import { NextLevelComponent } from './next-level/next-level.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     NgxTimerModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

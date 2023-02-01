@@ -1,0 +1,13 @@
+Improvements in future versions - 
+    The created on is the version 1 of this application. Considering, there are and will be more additions to this one.
+
+    eg. 
+    1. Code optimization - When I started building, I created files, components, functions, variable as per my requirements. 
+        So, in next version we can optimize this as per the requirements
+    2. CSS - There are few repeatative usage of classes and attributes. That can be optimized
+    3. Backend with NodeJS is created, but could not integrate with the Front-end as I got stuck in some of the functionalities
+
+Learning -
+    1. Learned little more about angular-material
+    2. Created a design by myself
+    3. Worked on project with strict deadline after a break
