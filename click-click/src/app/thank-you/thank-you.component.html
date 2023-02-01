@@ -10,10 +10,23 @@
             Thank you for playing the game.
             <br>
             <br>
-            <span style="font-weight: bold;">Ever tried. Ever failed. No matter. Try Again. Fail
-                again. Fail better.</span>
+            <div *ngIf="prevState =='gameover'">
+                <span style="font-weight: bold;">Ever tried. Ever failed. No matter. Try
+                    Again. Fail
+                    again. Fail better.</span>
 
-            - <span style="font-style: italic; font-weight: bold;">Samuel Beckett</span>
+                - <span *ngIf="prevState =='gameover'" style="font-style: italic; font-weight: bold;">Samuel
+                    Beckett</span>
+            </div>
+
+
+            <div *ngIf="prevState =='completed'">
+                <span style="font-weight: bold;">If you fell down yesterday, stand up
+                    today.</span>
+
+                - <span style="font-style: italic; font-weight: bold;">H. G. Wells</span>
+            </div>
+
         </mat-card-content>
     </mat-card>
 </div>
